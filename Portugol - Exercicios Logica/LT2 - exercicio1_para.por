@@ -3,7 +3,7 @@
 
 programa
 {
-	inclua biblioteca Matematica-->mat
+	inclua biblioteca Matematica-->mat
 	
 	funcao inicio()
 	{
@@ -21,6 +21,7 @@ programa
 		    
 		    escreva("Digite quantos filhos você tem: ")
 		    leia(filhos)
+		    
 		    somaFilhos = somaFilhos+filhos
 
 			se (salario>maiorSal)
@@ -45,7 +46,7 @@ programa
 
 		escreva("\nO maior salário é: R$ ",maiorSal)
 		
-		percentual=contSal/qtdPessoas
+		percentual=contSal/qtdPessoas*100.0
 		
 		escreva("\nO percentual de pessoas que recebem até R$ 100.00 é de: ",percentual, "%")
 	}
@@ -55,9 +56,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1241; 
+ * @POSICAO-CURSOR = 1250; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {filhos, 10, 28, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
