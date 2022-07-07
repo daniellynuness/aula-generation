@@ -8,10 +8,7 @@ public class LT1_exercicio1 {
 
 	public static void main(String[] args) 
 	{
-		int a=0,b=0,c=0,maior;
-		maior = a;
-		maior = b;
-		maior = c;
+		int a=0,b=0,c=0;
 				
 		Scanner leia = new Scanner(System.in);
 		
@@ -30,7 +27,7 @@ public class LT1_exercicio1 {
 		{
 			System.out.println("\nEsse é o maior valor: "+b);
 		}
-		else if(c>a && c>b)
+		else 
 		{
 			System.out.println("\nEsse é o maior valor: "+c);
 		}
