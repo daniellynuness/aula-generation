@@ -6,7 +6,7 @@ public class LT2_exercicio1 {
 	{
 		int x;
 		
-		for(x=1000;x>=1999;x++)
+		for(x=1000;x<=1999;x++)
 		{
 			if(x%11==5)
 			{
