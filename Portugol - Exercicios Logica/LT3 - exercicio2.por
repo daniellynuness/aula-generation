@@ -8,7 +8,8 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro lancamento[10],soma=0,media,maior=0,x
+		inteiro lancamento[10],soma=0,maior=0,x
+		real media=0.0
 
 		para(x=0;x<10;x++)
 		{
@@ -21,7 +22,9 @@ programa
 				maior++
 			}
 		}
+		media=soma/10.0
 		escreva("\nO dado caiu no número 6, ",maior," vezes")
+		escreva("\nA média aritmetica é de: ",media)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,9 +32,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 217; 
+ * @POSICAO-CURSOR = 383; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {lancamento, 11, 10, 10}-{soma, 11, 25, 4}-{maior, 11, 32, 5}-{x, 11, 40, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
