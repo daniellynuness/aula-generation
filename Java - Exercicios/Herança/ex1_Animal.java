@@ -5,6 +5,10 @@ public class Animal
 	private String nome;
 	private int idade;
 	
+	public void sobe() {
+	}
+	public void corre() {
+	}
 	public void som()
 	{
 		System.out.println("esta emitindo som...");
