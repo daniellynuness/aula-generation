@@ -6,16 +6,25 @@ package poo;
 
 public class Aviao 
 {
-	private String nomePiloto, nomeCoPiloto, linhaAerea, qtdPassageiros;
+	private String nomePiloto, nomeCoPiloto, qtdPassageiros;
+	int velocidadeAtual, velocidadeMaxima;
+	String linhaAerea;
+	
+	void decola()
+	{
+		System.out.println("O aviao esta decolando...");
+	}
+	void acelera(int quantidade)
+	{
+		int velocidadeNova = this.velocidadeAtual+quantidade;
+		this.velocidadeAtual = velocidadeNova;
+	}
 	
 	public void setNomePiloto(String nomePiloto) {
 		this.nomePiloto = nomePiloto;
 	}
 	public void setNomeCoPiloto(String nomeCoPiloto) {
 		this.nomeCoPiloto = nomeCoPiloto;
-	}
-	public void setLinhaAerea(String linhaAerea) {
-		this.linhaAerea = linhaAerea;
 	}
 	public void setqtdPassageiros(String qtdPassageiros) {
 		this.qtdPassageiros = qtdPassageiros;
@@ -25,9 +34,6 @@ public class Aviao
 	}
 	public String getNomeCoPiloto() {
 		return nomeCoPiloto;
-	}
-	public String getLinhaAerea() {
-		return linhaAerea;
 	}
 	public String getQtdPassageiros() {
 		return qtdPassageiros;
