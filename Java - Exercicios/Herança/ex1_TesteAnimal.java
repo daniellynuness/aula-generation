@@ -4,9 +4,9 @@ public class TesteAnimal {
 
 	public static void main(String[] args) 
 	{
-		Cachorro dog = new Cachorro();
-		Cavalo horse = new Cavalo();
-		Preguica lento = new Preguica();
+		Cachorro dog = new Cachorro("Toby",3);
+		Cavalo horse = new Cavalo("Leo",5);
+		Preguica lento = new Preguica("Juca",10);
 		
 		dog.setNome("Toby");
 		System.out.println("Cachorro "+dog.getNome());

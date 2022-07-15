@@ -9,11 +9,9 @@ public class Animal
 	}
 	public void corre() {
 	}
-	public void som()
-	{
-		System.out.println("esta emitindo som...");
+	public void som() {
+		
 	}
-
 	public String getNome() {
 		return nome;
 	}
