@@ -24,4 +24,4 @@ INSERT INTO tb_alunos (nome,idade,nota,presenca) VALUES ("Donna Meagle", 15, 8.5
 SELECT * FROM tb_alunos;
 SELECT * FROM tb_alunos WHERE nota >= 7.0;
 SELECT * FROM tb_alunos WHERE nota < 7.0;
-
+UPDATE tb_alunos SET presenca = true WHERE id = 2
